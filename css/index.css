@@ -1,3 +1,36 @@
+/* styles.css */
+
+/* Estilos generales */
 body {
-    background-color: rgb(216, 216, 216);
+  font-family: Arial, sans-serif;
+  background-color:  rgb(207, 207, 207);
+}
+
+/* Carrusel */
+.carousel-item img {
+  height: 400px; /* Ajusta la altura de las imágenes del carrusel */
+  object-fit: cover; /* Mantiene la proporción de la imagen */
+}
+
+/* Tarjetas de producto */
+.card {
+  transition: transform 0.2s; /* Animación al pasar el mouse */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+/* Pie de página */
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #007bff; /* Color de los enlaces en el pie de página */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Subrayar enlaces al pasar el mouse */
 }
