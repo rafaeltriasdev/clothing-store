@@ -17,6 +17,7 @@
   <body>
     <!-- Navegación principal -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <button id="theme-toggle" class="btn btn-secondary">Cambiar a Tema Oscuro</button>
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="img/ecommerce.ico" width="50px" alt="Logo" />
@@ -63,7 +64,7 @@
           <!-- Modificación en la barra de navegación -->
           <a class="nav-link" href="#">
             Carrito (<span id="cart-count">0</span>)
-          </a>
+          </a >
           <form class="d-flex" role="Buscar">
             <input
               class="form-control me-2"
@@ -75,9 +76,26 @@
               Buscar
             </button>
           </form>
+        <a class="nav-link" href="#" id="login-link">Iniciar Sesión</a>
         </div>
       </div>
     </nav>
+
+    <!-- Formulario de inicio de sesión -->
+<div id="login-form" style="display: none;">
+  <form id="form-login" class="p-3">
+    <div class="mb-3">
+      <label for="username" class="form-label">Usuario</label>
+      <input type="text" class="form-control" id="username" required />
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Contraseña</label>
+      <input type="password" class="form-control" id="password" required />
+    </div>
+    <button type="submit" class="btn btn-primary-uno">Entrar</button>
+    <button type="button" class="btn btn-secondary-dos" id="cancel-login">Cancelar</button>
+  </form>
+</div>
 
     <!-- Carrusel de productos -->
     <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -170,13 +188,13 @@
       <a href="https://api.whatsapp.com/send?phone=584123799346" target="_blank">
         <img src="img/whatsapp.ico" alt="Descripción del icono" class="icono-footer">
       </a>
-      <a href="https://www.ejemplo.com" target="_blank">
+      <a <a href="mailto:shinyamulet14@gmail.com" target="_blank">
         <img src="img/email.ico" alt="Descripción del icono" class="icono-footer">
       </a>
-      <a href="https://www.ejemplo.com" target="_blank">
+      <a href="https://www.facebook.com/shinyprint.ve" target="_blank">
         <img src="img/facebook.ico" alt="Descripción del icono" class="icono-footer">
       </a>
-      <a href="https://www.ejemplo.com" target="_blank">
+      <a href="https://www.instagram.com/shinyprint.ve/?__pwa=1" target="_blank">
       <img src="img/instagram.ico" alt="Descripción del icono" class="icono-footer">
       </a>
       </div>

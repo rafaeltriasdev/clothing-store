@@ -46,3 +46,85 @@ footer a:hover {
   height: 30px;
 }
 
+/* Estilo para el enlace de inicio de sesión */
+#login-link {
+  margin-left: 20px; /* Espacio entre el botón de inicio de sesión y otros elementos */
+  padding: 8px 16px; /* Espaciado interno para simular un botón */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto */
+  border-radius: 5px; /* Bordes redondeados */
+  text-decoration: none; /* Quitar subrayado */
+  transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+/* Estilo para el botón al pasar el mouse */
+#login-link:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo para el formulario de inicio de sesión */
+#login-form {
+  position: absolute; /* Posiciona el formulario de manera absoluta */
+  top: 60px; /* Ajusta según la altura de la barra de navegación */
+  right: 20px; /* Coloca el formulario a la derecha */
+  background-color: white; /* Fondo blanco para el formulario */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  padding: 20px; /* Espaciado interno del formulario */
+  z-index: 1000; /* Asegura que el formulario esté por encima de otros elementos */
+  width: 250px; /* Ancho fijo para el formulario */
+  text-align: center; /* Centra el texto dentro del formulario */
+}
+
+/* Estilo para el botón de entrar y cancelar */
+#form-login button {
+  width: 100%; /* Botones ocupan todo el ancho del formulario */
+  margin-top: 10px; /* Espacio superior entre los botones */
+}
+
+/* Estilo para el botón de cancelar */
+#cancel-login {
+  margin-top: 10px; /* Espacio superior para el botón de cancelar */
+}
+
+body.dark-theme {
+  background-color: #121212; /* Color de fondo oscuro */
+  color: #ffffff; /* Color de texto claro */
+}
+
+.dark-theme .navbar {
+  background-color: #1f1f1f; /* Color de fondo de la barra de navegación */
+  color: #ffffff; /* Color de texto en la barra de navegación */
+}
+
+.dark-theme .navbar a {
+  color: #000000; /* Color de los enlaces en la barra de navegación */
+}
+
+.dark-theme .card {
+  background-color: #2a2a2a; /* Color de fondo de las tarjetas */
+  border-color: #444; /* Color del borde de las tarjetas */
+}
+
+.dark-theme .card-text {
+  color: #ffffff; /* Color de la descripción de los productos */
+}
+
+.dark-theme a {
+  color: #000000; /* Color de los enlaces en tema oscuro */
+}
+
+.dark-theme h1, 
+.dark-theme h2, 
+.dark-theme h3, 
+.dark-theme h4, 
+.dark-theme h5, 
+.dark-theme h6 {
+  color: #ffffff; /* Color de los encabezados */
+}
+
+.dark-theme footer {
+  background-color: #1f1f1f; /* Color de fondo del footer */
+  color: #000000; /* Color de texto en el footer */
+}

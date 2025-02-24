@@ -18,3 +18,39 @@ const addToCartButtons = document.querySelectorAll(".btn-primary");
 addToCartButtons.forEach((button) => {
   button.addEventListener("click", addToCart);
 });
+
+document.getElementById('login-link').addEventListener('click', function() {
+  document.getElementById('login-form').style.display = 'block';
+});
+
+document.getElementById('cancel-login').addEventListener('click', function() {
+  document.getElementById('login-form').style.display = 'none';
+});
+
+document.getElementById('form-login').addEventListener('submit', function(event) {
+  event.preventDefault(); // Evita que el formulario se envíe realmente
+
+  const username = document.getElementById('username').value;
+  const password = document.getElementById('password').value;
+
+  // Aquí puedes agregar tu lógica de validación
+  if (username === 'admin' && password === 'password') {
+      alert('Inicio de sesión exitoso');
+      // Aquí puedes redirigir o mostrar el panel de administración
+      document.getElementById('login-form').style.display = 'none';
+  } else {
+      alert('Usuario o contraseña incorrectos');
+  }
+});
+
+// Manejar el cambio de tema
+document.getElementById('theme-toggle').addEventListener('click', function() {
+  document.body.classList.toggle('dark-theme'); // Alterna la clase de tema oscuro
+
+  // Cambia el texto del botón según el tema actual
+  if (document.body.classList.contains('dark-theme')) {
+      this.textContent = 'Cambiar a Tema Claro';
+  } else {
+      this.textContent = 'Cambiar a Tema Oscuro';
+  }
+});
