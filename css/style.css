@@ -1,6 +1,3 @@
-/* styles.css */
-
-/* Estilos generales */
 body {
   font-family: Arial, sans-serif;
   background-color:  rgb(207, 207, 207);
@@ -8,13 +5,13 @@ body {
 
 /* Carrusel */
 .carousel-item img {
-  height: 400px; /* Ajusta la altura de las imágenes del carrusel */
-  object-fit: cover; /* Mantiene la proporción de la imagen */
+  height: 400px; 
+  object-fit: cover;
 }
 
 /* Tarjetas de producto */
 .card {
-  transition: transform 0.2s; /* Animación al pasar el mouse */
+  transition: transform 0.2s;
 }
 
 .card:hover {
@@ -29,16 +26,23 @@ footer {
 }
 
 footer a {
-  color: #007bff; /* Color de los enlaces en el pie de página */
+  color: #007bff;
   text-decoration: none;
 }
 
 footer a:hover {
-  text-decoration: underline; /* Subrayar enlaces al pasar el mouse */
+  text-decoration: underline;
+}
+
+.iconos-footer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 0;
 }
 
 .icono-footer {
   width: 30px;
   height: 30px;
-  vertical-align: middle;
 }
+
