@@ -49,8 +49,8 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
 
   // Cambia el texto del botón según el tema actual
   if (document.body.classList.contains('dark-theme')) {
-      this.textContent = 'Cambiar a Tema Claro';
+      this.textContent = 'Light';
   } else {
-      this.textContent = 'Cambiar a Tema Oscuro';
+      this.textContent = 'Dark';
   }
 });
