@@ -5,7 +5,7 @@ body {
 
 /* Carrusel */
 .carousel-item img {
-  max-height: 100%; /* Ajusta la altura máxima según sea necesario */
+  max-width: 100%; /* Ajusta la altura máxima según sea necesario */
   max-height: 100%;
   object-fit: cover; /* Asegura que la imagen cubra el contenedor sin deformarse */
 }
