@@ -5,10 +5,13 @@ body {
 
 /* Carrusel */
 .carousel-item img {
-  height: 400px;
-  object-fit: cover;
+max-height: 400px; /* Cambia este valor según tus necesidades */
+object-fit: cover; /* Ajusta la imagen para cubrir el espacio */
 }
-
+ 
+@media (max-width: 800px) {
+  /* … */
+}
 /* Tarjetas de producto */
 .card {
   transition: transform 0.2s;
@@ -106,6 +109,7 @@ footer a:hover {
   text-decoration: none;
 }
 
+/* Botón para desplazar hacia arriba */
 .scroll-to-top {
   position: fixed;
   bottom: 20px;

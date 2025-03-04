@@ -34,7 +34,7 @@ document.getElementById('form-login').addEventListener('submit', function(event)
   const password = document.getElementById('password').value;
 
   // Aquí puedes agregar tu lógica de validación
-  if (username === 'admin' && password === 'password') {
+  if (username === 'admin' && password === 'admin') {
       alert('Inicio de sesión exitoso');
       // Aquí puedes redirigir o mostrar el panel de administración
       document.getElementById('login-form').style.display = 'none';
@@ -43,6 +43,7 @@ document.getElementById('form-login').addEventListener('submit', function(event)
   }
 });
 
+// Botón para desplazar hacia arriba
 function scrollToTop() {
   window.scrollTo({
       top: 0,
