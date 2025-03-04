@@ -42,15 +42,3 @@ document.getElementById('form-login').addEventListener('submit', function(event)
       alert('Usuario o contraseña incorrectos');
   }
 });
-
-// Manejar el cambio de tema
-document.getElementById('theme-toggle').addEventListener('click', function() {
-  document.body.classList.toggle('dark-theme'); // Alterna la clase de tema oscuro
-
-  // Cambia el texto del botón según el tema actual
-  if (document.body.classList.contains('dark-theme')) {
-      this.textContent = 'Light';
-  } else {
-      this.textContent = 'Dark';
-  }
-});
