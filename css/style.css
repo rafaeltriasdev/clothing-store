@@ -1,21 +1,22 @@
 body {
   font-family: Arial, sans-serif;
-  background-color:  rgb(207, 207, 207);
+  background-color: rgb(207, 207, 207);
 }
 
 /* Carrusel */
 .carousel-item img {
-  height: 200px; 
+  height: 200px;
   object-fit: cover;
 }
 
 /* Tarjetas de producto */
 .card {
   transition: transform 0.2s;
+  margin: 1rem;
 }
 
 .card:hover {
-  transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+  transform: scale(1.01); /* Efecto de zoom al pasar el mouse */
 }
 
 /* Pie de página */
@@ -81,50 +82,14 @@ footer a:hover {
 #form-login button {
   width: 100%; /* Botones ocupan todo el ancho del formulario */
   margin-top: 10px; /* Espacio superior entre los botones */
+  background-color: #007bff;
+  color: #fff;
 }
 
+#form-login button:hover {
+  background-color: #0056b3;
+}
 /* Estilo para el botón de cancelar */
 #cancel-login {
   margin-top: 10px; /* Espacio superior para el botón de cancelar */
-}
-
-body.dark-theme {
-  background-color: #121212; /* Color de fondo oscuro */
-  color: #ffffff; /* Color de texto claro */
-}
-
-.dark-theme .navbar {
-  background-color: #1f1f1f; /* Color de fondo de la barra de navegación */
-  color: #ffffff; /* Color de texto en la barra de navegación */
-}
-
-.dark-theme .navbar a {
-  color: #000000; /* Color de los enlaces en la barra de navegación */
-}
-
-.dark-theme .card {
-  background-color: #2a2a2a; /* Color de fondo de las tarjetas */
-  border-color: #444; /* Color del borde de las tarjetas */
-}
-
-.dark-theme .card-text {
-  color: #ffffff; /* Color de la descripción de los productos */
-}
-
-.dark-theme a {
-  color: #000000; /* Color de los enlaces en tema oscuro */
-}
-
-.dark-theme h1, 
-.dark-theme h2, 
-.dark-theme h3, 
-.dark-theme h4, 
-.dark-theme h5, 
-.dark-theme h6 {
-  color: #ffffff; /* Color de los encabezados */
-}
-
-.dark-theme footer {
-  background-color: #1f1f1f; /* Color de fondo del footer */
-  color: #000000; /* Color de texto en el footer */
 }
