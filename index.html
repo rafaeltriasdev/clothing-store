@@ -51,30 +51,19 @@
                 Sublimación
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Tazas</a></li>
-                <li><a class="dropdown-item" href="#">Coolers</a></li>
-                <li><a class="dropdown-item" href="#">Pósters de aluminio</a></li>
-                <li><a class="dropdown-item" href="#">Llaveros de aluminio</a></li>
+                <li><a class="dropdown-item" href="#tazas">Tazas</a></li>
+                <li><a class="dropdown-item" href="#coolers">Coolers</a></li>
+                <li><a class="dropdown-item" href="#poster">Pósters de aluminio</a></li>
+                <li><a class="dropdown-item" href="#llaveros">Llaveros de aluminio</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contact">Contacto</a>
             </li>
           <!-- Modificación en la barra de navegación -->
           <a class="nav-link" href="#">
             Carrito (<span id="cart-count">0</span>)
           </a >
-          <form class="d-flex" role="Buscar">
-            <input
-              class="form-control me-2"
-              type="Buscar"
-              placeholder="Buscar"
-              aria-label="Buscar"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Buscar
-            </button>
-          </form>
         </div>
       </div>
       <a class="nav-link" href="#" id="login-link">Iniciar Sesión</a>
@@ -149,8 +138,8 @@
           <div class="card">
             <img src="img/T-Shirt4.png" class="card-img-top" alt="Producto 1" />
             <div class="card-body">
-              <h5 class="card-title">Producto 1</h5>
-              <p class="card-text">Descripción breve del producto 1.</p>
+              <h5 class="card-title">Oversize Street</h5>
+              <p class="card-text">Franela de algodón jersey talla única.</p>
               <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </div>
           </div>
@@ -178,8 +167,13 @@
       </div>
     </div>
 
+    <div class="scroll-to-top" onclick="scrollToTop()">
+      ↑
+  </div>
+  
     <!-- Pie de página -->
     <footer class="bg-light text-center text-lg-start mt-5">
+      <a id="contact"></a>
       <div class="text-center p-3">
         © 2025 Shiny Print VE
       </div>
@@ -196,9 +190,11 @@
       <a href="https://www.instagram.com/shinyprint.ve/?__pwa=1" target="_blank">
       <img src="img/instagram.ico" alt="Descripción del icono" class="icono-footer">
       </a>
-      <a href="https://github.com/rafaeltriasdev" target="_blank">
-        <img src="img/github.ico" alt="Descripción del icono" class="icono-footer">
-      </a>
+      </div>
+      <div class="github">
+        <a href="https://github.com/rafaeltriasdev" target="_blank">
+          <img src="img/github.ico" alt="Descripción del icono" class="icono-footer"> Desarrollado por Rafael Trias Dev
+        </a>
       </div>
     </footer>
 

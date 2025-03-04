@@ -5,7 +5,7 @@ body {
 
 /* Carrusel */
 .carousel-item img {
-  height: 200px;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -29,6 +29,7 @@ footer {
 footer a {
   color: #007bff;
   text-decoration: none;
+  text-align: center;
 }
 
 footer a:hover {
@@ -92,4 +93,38 @@ footer a:hover {
 /* Estilo para el botón de cancelar */
 #cancel-login {
   margin-top: 10px; /* Espacio superior para el botón de cancelar */
+}
+
+.github {
+  text-align: center;
+}
+.github a {
+  color: #000;
+}
+
+.github a:hover {
+  text-decoration: none;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.scroll-to-top:hover {
+  background-color: #0056b3;
 }

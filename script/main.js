@@ -42,3 +42,10 @@ document.getElementById('form-login').addEventListener('submit', function(event)
       alert('Usuario o contraseña incorrectos');
   }
 });
+
+function scrollToTop() {
+  window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+  });
+}
