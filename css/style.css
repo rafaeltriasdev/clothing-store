@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(207, 207, 207);
+}
+
+/* Carrusel */
+.carousel-item img {
+max-height: 400px; /* Cambia este valor según tus necesidades */
+object-fit: cover; /* Ajusta la imagen para cubrir el espacio */
+}
+ 
+@media (max-width: 800px) {
+  /* … */
+}
+/* Tarjetas de producto */
+.card {
+  transition: transform 0.2s;
+  margin: 1rem;
+}
+
+.card:hover {
+  transform: scale(1.01); /* Efecto de zoom al pasar el mouse */
+}
+
+/* Pie de página */
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.iconos-footer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.icono-footer {
+  width: 30px;
+  height: 30px;
+}
+
+/* Estilo para el enlace de inicio de sesión */
+#login-link {
+  margin-left: 20px; /* Espacio entre el botón de inicio de sesión y otros elementos */
+  padding: 8px 16px; /* Espaciado interno para simular un botón */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto */
+  border-radius: 5px; /* Bordes redondeados */
+  text-decoration: none; /* Quitar subrayado */
+  transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+/* Estilo para el botón al pasar el mouse */
+#login-link:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo para el formulario de inicio de sesión */
+#login-form {
+  position: absolute; /* Posiciona el formulario de manera absoluta */
+  top: 60px; /* Ajusta según la altura de la barra de navegación */
+  right: 20px; /* Coloca el formulario a la derecha */
+  background-color: white; /* Fondo blanco para el formulario */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  padding: 20px; /* Espaciado interno del formulario */
+  z-index: 1000; /* Asegura que el formulario esté por encima de otros elementos */
+  width: 250px; /* Ancho fijo para el formulario */
+  text-align: center; /* Centra el texto dentro del formulario */
+}
+
+/* Estilo para el botón de entrar y cancelar */
+#form-login button {
+  width: 100%; /* Botones ocupan todo el ancho del formulario */
+  margin-top: 10px; /* Espacio superior entre los botones */
+  background-color: #007bff;
+  color: #fff;
+}
+
+#form-login button:hover {
+  background-color: #0056b3;
+}
+/* Estilo para el botón de cancelar */
+#cancel-login {
+  margin-top: 10px; /* Espacio superior para el botón de cancelar */
+}
+
+.github {
+  text-align: center;
+}
+.github a {
+  color: #000;
+}
+
+.github a:hover {
+  text-decoration: none;
+}
+
+/* Botón para desplazar hacia arriba */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.scroll-to-top:hover {
+  background-color: #0056b3;
+}
