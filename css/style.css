@@ -55,20 +55,16 @@ footer a:hover {
 #login-link {
   margin-left: 20px; /* Espacio entre el botón de inicio de sesión y otros elementos */
   padding: 8px 16px; /* Espaciado interno para simular un botón */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto */
+  border-radius: 5px; /* Bordes redondeados */
   text-decoration: none; /* Quitar subrayado */
-  border: none;
-  background-color: #f8f9fa;
+  transition: background-color 0.3s; /* Transición suave para el hover */
 }
 
-.icon-profile {
-  width: 35px;
-  height: 35px;
-}
-
-#sign-up {
-  padding: 8px 16px;
-  text-decoration: none;
-
+/* Estilo para el botón al pasar el mouse */
+#login-link:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el mouse */
 }
 
 /* Estilo para el formulario de inicio de sesión */
