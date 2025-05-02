@@ -58,7 +58,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about-us.html">Contacto</a>
+              <a class="nav-link" href="about-us.html">Sobre Nosotros</a>
             </li>
           <!-- Modificación en la barra de navegación -->
           <a class="nav-link" href="carrito.html">
@@ -85,12 +85,43 @@
     <button type="submit" class="btn btn-primary-uno">Entrar</button>
     <button type="button" class="btn btn-secondary-dos" id="cancel-login">Cancelar</button>
     <div id="sign-up">
-    <a href="sign-up.html">Registrarse</a>
+    <a href="register.html">Registrarse</a>
   </div>
   </form>
 </div>
     
+    <!-- Carrito de Compras -->
+    <div class="container mt-5">
+      <h2 class="text-center">Carrito de Compras</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Total</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="cart-items">
+          <!-- Los productos se cargarán aquí dinámicamente -->
+        </tbody>
+      </table>
+      <div class="text-end">
+        <h4>Total: $<span id="cart-total">0.00</span></h4>
+        <button class="btn btn-danger" id="clear-cart-btn">Vaciar Carrito</button>
+        <button class="btn btn-success" id="checkout-btn">Finalizar Compra</button>
+      </div>
+    </div>
 
+
+
+
+    <!-- Botón para desplazar hacia arriba  -->
+    <div class="scroll-to-top" onclick="scrollToTop()">
+      ↑
+  </div>
+  
 
 
   <!-- Pie de página -->
@@ -127,6 +158,6 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"
   ></script>
-  <script src="../js/main.js"></script>
+  <script src="../js/carrito.js"></script>
 </body>
 </html>
